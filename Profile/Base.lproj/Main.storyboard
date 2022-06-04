@@ -28,6 +28,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Or-mYX">
+                                <rect key="frame" x="107" y="752" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5vH-2A-SOr"/>
+                                    <constraint firstAttribute="height" constant="50" id="xC4-Lz-3rf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="プロフィール">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5N-wk-5zn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -35,12 +50,18 @@
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-ge-pDX"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7qZ-AZ-Kla"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JXV-if-pR4" secondAttribute="trailing" id="BIw-LF-sU3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pQr-Or-mYX" secondAttribute="bottom" constant="60" id="GT2-0m-UxB"/>
+                            <constraint firstItem="pQr-Or-mYX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Huk-U3-lnl"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IUd-Z2-2xn"/>
                             <constraint firstAttribute="trailing" secondItem="CRh-Hp-8kx" secondAttribute="trailing" id="JCd-uz-yRD"/>
                             <constraint firstItem="JXV-if-pR4" firstAttribute="top" secondItem="CRh-Hp-8kx" secondAttribute="bottom" id="W0B-fT-Rxs"/>
                             <constraint firstItem="JXV-if-pR4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kJ2-Ph-wh6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="profileContentLabel" destination="JXV-if-pR4" id="RxJ-sP-JcO"/>
+                        <outlet property="profileImageView" destination="CRh-Hp-8kx" id="41F-5V-tXu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
