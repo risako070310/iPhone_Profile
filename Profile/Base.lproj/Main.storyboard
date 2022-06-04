@@ -17,19 +17,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="philImage" translatesAutoresizingMaskIntoConstraints="NO" id="CRh-Hp-8kx">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="450" id="LCD-eO-qTi"/>
+                                    <constraint firstAttribute="height" constant="400" id="LCD-eO-qTi"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXV-if-pR4">
+                                <rect key="frame" x="0.0" y="400" width="414" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-ge-pDX"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7qZ-AZ-Kla"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JXV-if-pR4" secondAttribute="trailing" id="BIw-LF-sU3"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IUd-Z2-2xn"/>
                             <constraint firstAttribute="trailing" secondItem="CRh-Hp-8kx" secondAttribute="trailing" id="JCd-uz-yRD"/>
+                            <constraint firstItem="JXV-if-pR4" firstAttribute="top" secondItem="CRh-Hp-8kx" secondAttribute="bottom" id="W0B-fT-Rxs"/>
+                            <constraint firstItem="JXV-if-pR4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kJ2-Ph-wh6"/>
                         </constraints>
                     </view>
                 </viewController>
