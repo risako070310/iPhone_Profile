@@ -16,13 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        profileImageView.isHidden = true
-        profileContentLabel.isHidden = true
     }
     
     @IBAction func tapProfileButton(){
-        profileImageView.isHidden = false
-        profileContentLabel.isHidden = false
     }
 
 }

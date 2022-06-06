@@ -22,25 +22,82 @@
                                     <constraint firstAttribute="height" constant="400" id="LCD-eO-qTi"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXV-if-pR4">
-                                <rect key="frame" x="0.0" y="400" width="414" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXV-if-pR4">
+                                <rect key="frame" x="48.5" y="400" width="317" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="317" id="eC0-xj-Nzu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Or-mYX">
-                                <rect key="frame" x="107" y="752" width="200" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhoneメンターのフィルだよ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fue-78-dsQ">
+                                <rect key="frame" x="48" y="439" width="318" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="Voz-RN-y7o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Or-mYX">
+                                <rect key="frame" x="34" y="690" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="5vH-2A-SOr"/>
+                                    <constraint firstAttribute="width" constant="160" id="5vH-2A-SOr"/>
                                     <constraint firstAttribute="height" constant="50" id="xC4-Lz-3rf"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="プロフィール">
+                                <buttonConfiguration key="configuration" style="plain" title="名前">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5N-wk-5zn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydl-bK-61t">
+                                <rect key="frame" x="220" y="690" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HK8-JW-pC1"/>
+                                    <constraint firstAttribute="width" constant="160" id="qX5-xk-U9g"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="スポーツ">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="23s-63-6C4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-Ma-m0l">
+                                <rect key="frame" x="34" y="765" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Eco-9A-2YU"/>
+                                    <constraint firstAttribute="width" constant="160" id="y6F-ue-dNq"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="好きな食べ物">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="761-iB-Ngh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFV-dO-NBe">
+                                <rect key="frame" x="220" y="765" width="160" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4b3-hU-qmc"/>
+                                    <constraint firstAttribute="width" constant="160" id="ZjS-Xg-7yg"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="趣味">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rq8-Q4-tsV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,13 +106,12 @@
                         <constraints>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-ge-pDX"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7qZ-AZ-Kla"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JXV-if-pR4" secondAttribute="trailing" id="BIw-LF-sU3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pQr-Or-mYX" secondAttribute="bottom" constant="60" id="GT2-0m-UxB"/>
-                            <constraint firstItem="pQr-Or-mYX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Huk-U3-lnl"/>
+                            <constraint firstItem="JXV-if-pR4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="95u-6P-Z4E"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IUd-Z2-2xn"/>
                             <constraint firstAttribute="trailing" secondItem="CRh-Hp-8kx" secondAttribute="trailing" id="JCd-uz-yRD"/>
+                            <constraint firstItem="fue-78-dsQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OF9-c5-2AP"/>
                             <constraint firstItem="JXV-if-pR4" firstAttribute="top" secondItem="CRh-Hp-8kx" secondAttribute="bottom" id="W0B-fT-Rxs"/>
-                            <constraint firstItem="JXV-if-pR4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kJ2-Ph-wh6"/>
+                            <constraint firstItem="fue-78-dsQ" firstAttribute="top" secondItem="JXV-if-pR4" secondAttribute="bottom" constant="10" id="dWk-Ik-ruI"/>
                         </constraints>
                     </view>
                     <connections>
