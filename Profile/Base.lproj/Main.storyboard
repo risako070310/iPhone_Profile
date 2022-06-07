@@ -40,8 +40,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Or-mYX">
-                                <rect key="frame" x="34" y="690" width="160" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQr-Or-mYX">
+                                <rect key="frame" x="30" y="692" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="5vH-2A-SOr"/>
@@ -55,8 +55,8 @@
                                     <action selector="tapNameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="6IH-WN-RPT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydl-bK-61t">
-                                <rect key="frame" x="220" y="690" width="160" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydl-bK-61t">
+                                <rect key="frame" x="224" y="692" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="HK8-JW-pC1"/>
@@ -70,8 +70,8 @@
                                     <action selector="tapSportsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="uie-00-Tav"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-Ma-m0l">
-                                <rect key="frame" x="34" y="765" width="160" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-Ma-m0l">
+                                <rect key="frame" x="30" y="762" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Eco-9A-2YU"/>
@@ -85,8 +85,8 @@
                                     <action selector="tapFoodsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="QxH-2f-nmb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFV-dO-NBe">
-                                <rect key="frame" x="220" y="765" width="160" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFV-dO-NBe">
+                                <rect key="frame" x="224" y="762" width="160" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4b3-hU-qmc"/>
@@ -104,20 +104,28 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="pjM-Ma-m0l" firstAttribute="top" secondItem="pQr-Or-mYX" secondAttribute="bottom" constant="20" id="20p-bM-I7O"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4MO-ge-pDX"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7qZ-AZ-Kla"/>
                             <constraint firstItem="JXV-if-pR4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="95u-6P-Z4E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ydl-bK-61t" secondAttribute="trailing" constant="30" id="Ax8-hI-E9e"/>
+                            <constraint firstItem="WFV-dO-NBe" firstAttribute="top" secondItem="ydl-bK-61t" secondAttribute="bottom" constant="20" id="EO9-Gu-Hxw"/>
                             <constraint firstItem="CRh-Hp-8kx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IUd-Z2-2xn"/>
                             <constraint firstAttribute="trailing" secondItem="CRh-Hp-8kx" secondAttribute="trailing" id="JCd-uz-yRD"/>
                             <constraint firstItem="fue-78-dsQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OF9-c5-2AP"/>
                             <constraint firstItem="JXV-if-pR4" firstAttribute="top" secondItem="CRh-Hp-8kx" secondAttribute="bottom" id="W0B-fT-Rxs"/>
+                            <constraint firstItem="pQr-Or-mYX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Xgv-g9-evW"/>
+                            <constraint firstItem="pjM-Ma-m0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aXf-yE-cJP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WFV-dO-NBe" secondAttribute="bottom" constant="50" id="aj3-TE-MU3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pjM-Ma-m0l" secondAttribute="bottom" constant="50" id="c9F-wv-Cxt"/>
                             <constraint firstItem="fue-78-dsQ" firstAttribute="top" secondItem="JXV-if-pR4" secondAttribute="bottom" constant="10" id="dWk-Ik-ruI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WFV-dO-NBe" secondAttribute="trailing" constant="30" id="s3U-X6-BCG"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="profileContentLabel" destination="fue-78-dsQ" id="F1M-dy-ghg"/>
                         <outlet property="profileImageView" destination="CRh-Hp-8kx" id="41F-5V-tXu"/>
-                        <outlet property="profileLable" destination="JXV-if-pR4" id="c2J-7f-7v0"/>
+                        <outlet property="profileLabel" destination="JXV-if-pR4" id="TKh-ez-JIp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
