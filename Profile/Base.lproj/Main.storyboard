@@ -52,7 +52,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5N-wk-5zn"/>
+                                    <action selector="tapNameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="6IH-WN-RPT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydl-bK-61t">
@@ -67,7 +67,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="23s-63-6C4"/>
+                                    <action selector="tapSportsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="uie-00-Tav"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjM-Ma-m0l">
@@ -82,7 +82,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="761-iB-Ngh"/>
+                                    <action selector="tapFoodsButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="QxH-2f-nmb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFV-dO-NBe">
@@ -97,7 +97,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapProfileButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rq8-Q4-tsV"/>
+                                    <action selector="tapHobbyButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="6fV-nG-mjV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -115,8 +115,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="profileContentLabel" destination="JXV-if-pR4" id="RxJ-sP-JcO"/>
+                        <outlet property="profileContentLabel" destination="fue-78-dsQ" id="F1M-dy-ghg"/>
                         <outlet property="profileImageView" destination="CRh-Hp-8kx" id="41F-5V-tXu"/>
+                        <outlet property="profileLable" destination="JXV-if-pR4" id="c2J-7f-7v0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
